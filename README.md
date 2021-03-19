@@ -7,12 +7,12 @@ Unity Save Data In Loacl<br>
 例子：<br>
 public class PrefsData : SStruct<br>
 {<br>
->>>>public PrefsData(string key)<br>
->>>>{<br>
->>>>>>>Init(new UnityStorage(), key);<br>
->>>>}<br>
->>>>[SDef(-1)]<br>
->>>>public SInt id;<br>
->>>>public SString name;<br>
->>>>public Sfloat time;<br>
+public PrefsData(string key)<br>
+{<br>
+Init(new UnityStorage(), key);<br>
+}<br>
+[SDef(-1)]<br>
+public SInt id;<br>
+public SString name;<br>
+public Sfloat time;<br>
 }<br>
